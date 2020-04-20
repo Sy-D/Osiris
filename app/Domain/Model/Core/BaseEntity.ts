@@ -4,7 +4,7 @@ import { Exclude } from 'class-transformer';
 
 export class BaseEntity {
 
-    @IsOptional()    
+    @IsOptional()
     @ObjectIdColumn()
     id: ObjectID;
 

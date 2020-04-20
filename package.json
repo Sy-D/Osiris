@@ -36,10 +36,12 @@
   },
   "dependencies": {
     "@types/node": "^13.13.0",
+    "axios": "^0.19.2",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.12.1",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
     "inversify": "^5.0.1",
     "mongoose": "^5.9.9",
     "reflect-metadata": "^0.1.13",
