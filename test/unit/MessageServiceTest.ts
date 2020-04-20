@@ -15,7 +15,7 @@ describe('MessageResponder', () => {
   let service: MessageResponder;
 
   beforeEach(() => {
-    mockedPingFinderClass = mock(PingFinder);
+    mockedPingFinderClass = mock(PingTest);
     mockedPingFinderInstance = instance(mockedPingFinderClass);
     mockedMessageClass = mock(Message);
     mockedMessageInstance = instance(mockedMessageClass);

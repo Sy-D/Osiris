@@ -5,5 +5,5 @@ export const TYPES = {
     Token: Symbol("Token"),
     MessageResponder: Symbol("MessageResponder"),
     PingTest: Symbol("PingTest"),
-
+    MessageTemplateService: Symbol("MessageTemplateService")
   };

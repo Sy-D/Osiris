@@ -1,4 +1,4 @@
-class HttpException extends Error {
+export class HttpException extends Error {
     private readonly response;
     private readonly status;
     readonly message: any;

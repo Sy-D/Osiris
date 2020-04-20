@@ -1,12 +1,10 @@
 import {Message} from "discord.js";
-import {PingTest} from "./pingTest";
 import {inject, injectable} from "inversify";
 import {TYPES} from "../../../config/types";
 import axios, { AxiosResponse } from 'axios';
 
 @injectable()
 export class AuthentificationService {
-  private pingTest: PingTest;
 
   constructor(
     //@inject(TYPES.ApplicationConfig) applicationConfig: ApplicationConfig
@@ -21,7 +19,7 @@ export class AuthentificationService {
             return; // TODO: Throw Exception
         }
 
-        if (typeof user !== 'string' || tyepof password !== 'string')
+        if (typeof user !== 'string' || typeof password !== 'string')
         {
             return; // TODO: Throw Exception
         }
