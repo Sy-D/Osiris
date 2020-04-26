@@ -17,6 +17,11 @@ describe('Bot', () => {
     bot = container.get<Bot>(TYPES.Bot);
   });
 
+  after('Exit mocha gracefully after finishing all tests execution',  () => {
+    // Exit node process
+    process.exit();
+  });
+
   // Test cases here
 
 });
