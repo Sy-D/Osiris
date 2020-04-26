@@ -1,9 +1,9 @@
 import {Message} from "discord.js";
 import {inject, injectable} from "inversify";
 import {TYPES} from "../../../config/types";
-import { BaseService } from "../core/BaseService";
 import { MessageTemplate } from "../../Domain/Model/MessageTemplate";
 import { Repository } from "typeorm/repository/Repository";
+import { BaseService } from "../Core/BaseService";
 
 @injectable()
 export class MessageTemplateService extends BaseService<MessageTemplate> {
