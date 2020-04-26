@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "tsc -p tsconfig.json -w",
-    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\"",
+    "test": "mocha -r ts-node/register \"test/**/*.spec.ts\"",
     "start": "tsc && node dist/app.js"
   },
   "repository": {
