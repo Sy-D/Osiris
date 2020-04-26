@@ -1,7 +1,7 @@
 import { Repository } from 'typeorm';
-import { BaseEntity } from '../../domain/model/core/BaseEntity';
 import { IBaseService } from './IBaseService';
 import { BadGatewayException } from '../../Common/Exceptions/bad-gateway.exception' 
+import { BaseEntity } from '../../Domain/Model/Core/BaseEntity';
 
 export class BaseService<T extends BaseEntity> implements IBaseService<T>{
     constructor(
