@@ -1,9 +1,9 @@
-import container from "../../config/inversify.config";
+/*import container from "../../config/inversify.config";
 import {TYPES} from "../../config/types";
 import { Client } from "discord.js";
-import { Bot } from "../../app/Feature/Bot";
+import { Bot } from "../../app/Feature/Bot";*/
 // ...
-
+/*
 describe('Bot', () => {
   let discordMock: Client;
   let discordInstance: Client;
@@ -19,4 +19,4 @@ describe('Bot', () => {
 
   // Test cases here
 
-});
+});*/

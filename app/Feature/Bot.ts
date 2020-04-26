@@ -4,7 +4,7 @@ import {TYPES} from "../../config/types";
 import { MessageResponder } from "../Service/Chat/MessageResponder";
 
 @injectable()
-export class Bot {
+export default class Bot {
   private client: Client;
   private readonly token: string;
   private messageResponder: MessageResponder;
@@ -37,3 +37,4 @@ export class Bot {
     return this.client.login(this.token);
   }
 }
+

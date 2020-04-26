@@ -1,9 +1,11 @@
-export const TYPES = {
-    App: Symbol("App"),
-    Bot: Symbol("Bot"),
-    Client: Symbol("Client"),
-    Token: Symbol("Token"),
-    MessageResponder: Symbol("MessageResponder"),
-    PingTest: Symbol("PingTest"),
-    MessageTemplateService: Symbol("MessageTemplateService")
+const TYPES = {
+    Bot: Symbol.for("Bot"),
+    Client: Symbol.for("Client"),
+    Token: Symbol.for("Token"),
+    MessageResponder: Symbol.for("MessageResponder"),
+    PingTest: Symbol.for("PingTest"),
+    MessageTemplateService: Symbol.for("MessageTemplateService"),
+
   };
+
+  export {TYPES};  

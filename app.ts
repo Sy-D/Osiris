@@ -1,7 +1,7 @@
 require('dotenv').config();
 import container from "./Config/inversify.config";
 import {TYPES} from "./Config/types";
-import {Bot} from './app/Feature/Bot';
+import Bot from './app/Feature/Bot';
 
 let bot = container.get<Bot>(TYPES.Bot);
 bot.listen().then(() => {
